@@ -1,0 +1,95 @@
+.contenedor{
+    background-color: #ffffff;
+    width: 24rem;
+    padding: 32px;
+    border-radius: 20px;
+}
+
+.contenedorTitulo{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 24px;
+}
+
+.contenedorEmail{
+    position: relative;
+}
+
+.imgCorreo{
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.correo{
+    width: calc(100% - 56px);
+    border-width: 1px;
+    border-style: #f3f4f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 10px;
+}
+
+.contenedorPassword{
+    position: relative;
+}
+
+.imgCandado{
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contraseña{
+    width: calc(100% - 56px);
+    border-width: 1px;
+    border-style: #f3f4f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 10px;
+}
+
+.imgOjo{
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.boton{
+    background-color: rgb(2 132 199);
+    color: #ffffff;
+    width: 100%;
+    border-style: none;
+    margin-top: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgb(7 89 133);
+}
